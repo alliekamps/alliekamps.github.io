@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(wa6image.JPG);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  .scoreboard {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .scoreboard h2 {
+    margin: 0 0 10px;
+  }
+  .team {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .team .name {
+    flex: 1;
+  }
+  .team .score {
+    margin-left: 10px;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .overlay {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: pink;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+  }
+  
