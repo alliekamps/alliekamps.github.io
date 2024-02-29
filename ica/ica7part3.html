@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    #narrowScreen {
+    background-color: purple; /* Default: Purple */
+}
+
+#wideScreen {
+    background-color: lightblue; /* Default: Light Blue */
+}
+
+#shortScreen {
+    background-color: yellow; /* Default: Yellow */
+}
+
+#tallScreen {
+    background-color: orange; /* Default: Orange */
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 600px) {
+    #narrowScreen {
+        background-color: green; /* Change to Green when wider than 600px */
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #wideScreen {
+        background-color: red; /* Change to Red when narrower than 800px */
+    }
+}
+
+@media screen and (min-height: 500px) {
+    #shortScreen {
+        background-color: turquoise; /* Change to Turquoise when taller than 500px */
+    }
+}
+
+@media screen and (max-height: 800px) {
+    #tallScreen {
+        background-color: lavender; /* Change to Lavender when shorter than 800px */
+    }
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ica7-part3.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="narrowScreen">
+        <p>Make me purple when the screen is narrower than 600px, else make me green</p>
+    </div>
+    <div id="wideScreen">
+        <p>Make me light blue when the screen is wider than 800px, else make me red.</p>
+    </div>
+    <div id="shortScreen">
+        <p>Make me yellow when the screen is shorter than 500px, else make me turquoise</p>
+    </div>
+    <div id="tallScreen">
+        <p>Make me orange when the screen is taller than 800px, else make me lavender</p>
+    </div>
+</body>
+</html>
