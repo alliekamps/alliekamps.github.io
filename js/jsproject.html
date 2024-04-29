@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ANNOYING VOLUME MAZE</title>
+<link rel="stylesheet" href="jsproject.css">
+</head>
+<body>
+<div class="maze-container">
+    <div class="maze">
+        <div id="start" class="path">Start</div>
+        <div class="wall"></div>
+        <div class="wall"></div>
+        <div class="path" onclick="moveHere(this)"></div>
+        <div class="wall"></div>
+        <div class="path" onclick="moveHere(this)"></div>
+        <div class="path" onclick="moveHere(this)"></div>
+        <div class="path" onclick="moveHere(this)"></div>
+        <div class="wall"></div>
+        <div class="path" onclick="moveHere(this)"></div>
+        <div class="path" onclick="moveHere(this)"></div>
+        <div class="wall"></div>
+        <div id="volume-up" class="path" onclick="adjustVolume(1)">Vol +</div>
+        <div id="volume-down" class="path" onclick="adjustVolume(-1)">Vol -</div>
+    </div>
+</div>
+<script src="jsproject.js"></script>
+</body>
+</html>

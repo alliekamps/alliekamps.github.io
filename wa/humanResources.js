@@ -34,7 +34,7 @@ const company = {
 console.log("Question 2");
 console.log(company);
 
-company.employees.push({});
+company.employees.employees.push({});
 company.employees.employees[3].firstName = "Anna";
 company.employees.employees[3].department = "Tech";
 company.employees.employees[3].designation = "Executive";

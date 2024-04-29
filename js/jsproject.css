@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.maze-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink;
+}
+
+.maze {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+}
+
+.path, .wall {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.path {
+    background-color: green;
+    border: 1px solid #ddd;
+}
+
+.path:hover {
+    background-color: yellow;
+}
+
+.wall {
+    background-color: grey;
+    cursor: default;
+}
+
