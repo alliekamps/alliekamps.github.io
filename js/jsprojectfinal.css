@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.volume-control-container {
+    width: 90%;
+    height: 50px;
+    border: 2px dashed green;
+    position: relative;
+}
+
+#volume-indicator {
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    border: 1px solid black;
+}
+
+#volume-scale {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
